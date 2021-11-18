@@ -1,3 +1,6 @@
+create database school;
+use school;
+
 create table student(
 	id int(10) not null primary key auto_increment,
 	fname varchar(255) not null,
